@@ -54,7 +54,7 @@ struct DetailView_Previews: PreviewProvider {
     }
         
 }
-// hi
+
 extension DetailView {
     
     private var overviewTitle: some View {
