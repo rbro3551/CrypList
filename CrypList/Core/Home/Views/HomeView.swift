@@ -31,7 +31,7 @@ struct HomeView: View {
                 VStack {
                     homeHeader
                     
-                    HomeStatsView(showPortfolio: $showPortfolio)
+                    HomeStatsView(width: geo.size.width, showPortfolio: $showPortfolio)
                     
                     SearchBarView(searchText: $vm.searchText)
                     
