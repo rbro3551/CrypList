@@ -182,6 +182,7 @@ extension HomeView {
                         }
                         .opacity(0)
                     )
+                    .listRowBackground(Color.theme.background)
             }
 
         }
@@ -199,6 +200,7 @@ extension HomeView {
                         }
                         .opacity(0)
                     )
+                    .listRowBackground(Color.theme.background)
             }
         }
         .listStyle(.plain)
