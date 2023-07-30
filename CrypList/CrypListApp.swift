@@ -21,7 +21,7 @@ struct CrypListApp: App {
     var body: some Scene {
         WindowGroup {
             ZStack {
-                NavigationView {
+                NavigationStack {
                     HomeView()
                         .toolbar(.hidden)
                 }

@@ -99,8 +99,19 @@ struct HomeView: View {
                             .transition(.move(edge: .leading))
                     }
                     if showPortfolio {
-                        portfolioCoinsList
-                            .transition(.move(edge: .trailing))
+                        ZStack(alignment: .top) {
+                            if vm.portfolioCoins.isEmpty && vm.searchText.isEmpty {
+                                Text("Click the + button to get started.")
+                                    .font(.callout)
+                                    .foregroundColor(Color.theme.accent)
+                                    .fontWeight(.medium)
+                                    .multilineTextAlignment(.center)
+                                    .padding(50)
+                            } else {
+                                portfolioCoinsList
+                            }
+                        }
+                        .transition(.move(edge: .trailing))
                     }
                     
                     
