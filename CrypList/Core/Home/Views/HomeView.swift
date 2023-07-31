@@ -163,8 +163,10 @@ extension HomeView {
             CircleButtonView(iconName: "chevron.right")
                 .rotationEffect(Angle(degrees: showPortfolio ? 180 : 0))
                 .onTapGesture {
+                    HapticManager.impact()
                     withAnimation(.spring()) {
                         showPortfolio.toggle()
+
                     }
                 }
         }
