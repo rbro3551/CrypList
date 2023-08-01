@@ -13,3 +13,5 @@ The app makes use of MVVM, data persistance (CoreData), and concurrency (Combine
 ![IMG_2185](https://github.com/rbro3551/CrypList/assets/30447344/e5cd8012-f9ec-4f3c-8e26-ad72cab3f5f6)
 
 ![IMG_2186](https://github.com/rbro3551/CrypList/assets/30447344/35453317-84cf-43de-b000-1447e3d012a8)
+
+<img src="https://github.com/rbro3551/CrypList/assets/30447344/37e30592-3e99-4cd7-81fe-5353ac8f3fcf)https://github.com/rbro3551/CrypList/assets/30447344/37e30592-3e99-4cd7-81fe-5353ac8f3fcf"  width="300" height="300">
